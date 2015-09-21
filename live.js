@@ -22,13 +22,13 @@ $(document).ready(function() {
 
 		console.log(story_list_offset);
 
-		if (story_list_offset < 30) {
+		if (story_list_offset < 45) {
 			$supp_key.css({
 				'position': 'fixed',
 				'width': key_width,
-				'top': '30px'
+				'top': '45px'
 			})
-		} else if (story_list_offset > 31) {
+		} else if (story_list_offset > 46) {
 			$supp_key.css({
 				'position': 'relative',
 				'top': 'auto'
