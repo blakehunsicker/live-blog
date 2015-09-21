@@ -11,7 +11,7 @@ $(document).ready(function() {
 		'float': 'right'
 	});
 
-	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:' + key_width + ';height:200px;float:left;background-color:#666;"><i class="fa fa-map-o" style="color:white;"></i><span style="color:white;">RELATED SUPPLEMENTS</span></div>')
+	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:' + key_width + ';height:200px;float:left;"><i class="fa fa-map-o" style="color:#444;"></i><span style="color:#444;">    RELATED SUPPLEMENTS</span></div>')
 
 	var $supp_key = $('.supplement-key');
 
