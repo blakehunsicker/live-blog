@@ -11,15 +11,17 @@ $(document).ready(function() {
 		'float': 'right'
 	});
 
-	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;float:left;"><i class="fa fa-map" style="color:#2a2a2a;"></i><span class="supp-header" style="font-family:FranklinITCProBold;color:#6B6B6B;">    RELATED SUPPLEMENTS</span></div>')
+	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;float:left;"><i class="fa fa-map" style="color:#6B6B6B;"></i><span class="supp-header" style="font-family:FranklinITCProBold;color:#6B6B6B;">    RELATED SUPPLEMENTS</span></div>')
 
 	var $supp_key = $('.supplement-key');
 
 	$supp_key.hover(
 		function() {
 			$('.supp-header').css('color','#2a2a2a');
+			$('.fa-map').css('color','#2a2a2a');
 		}, function() {
 			$('.supp-header').css('color','#6B6B6B');
+			$('.fa-map').css('color','#6B6B6B');
 		}
 	)
 
