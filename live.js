@@ -15,9 +15,13 @@ $(document).ready(function() {
 
 	var $supp_key = $('.supplement-key');
 
-	$supp_key.hover(function() {
-		$('.supp-header').css('color','#2a2a2a');
-	})
+	$supp_key.hover(
+		function() {
+			$('.supp-header').css('color','#2a2a2a');
+		}, function() {
+			$('.supp-header').css('color','#777');
+		}
+	)
 
 	$(window).scroll(function(e) {
 		e.preventDefault();
