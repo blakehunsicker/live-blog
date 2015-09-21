@@ -18,11 +18,11 @@ $(document).ready(function() {
 
 		var story_list_offset = $('#liveblog-story-list').offset().top - $(window).scrollTop();
 		console.log(story_list_offset);
-		
+
 		if (story_list_offset < 20) {
 			$supp_key.css({
-				'position': 'fixed',
-				'top': '0'
+				'position': 'absolute',
+				'top': '50px'
 			})
 		} else if (story_list_offset > 21) {
 			$supp_key.css({
