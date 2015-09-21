@@ -22,7 +22,7 @@ $(document).ready(function() {
 		if (story_list_offset < 20) {
 			$supp_key.css({
 				'position': 'fixed',
-				'width': $('.pb-f-liveblog-story-list').width() / 3 + 'px'
+				'width': $($('.pb-f-liveblog-story-list').width() / 3 + 'px'),
 				'top': '50px'
 			})
 		} else if (story_list_offset > 21) {
