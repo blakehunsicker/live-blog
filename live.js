@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$('#liveblog-story-list').css({
-		'width': '70%',
+		'width': '60%',
 		'float': 'right'
 	});
 
@@ -9,5 +9,5 @@ $(document).ready(function() {
 		'float': 'right'
 	});
 
-	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:25%;height:200px;float:left;background-color:#666;"></div>')
+	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:35%;height:200px;float:left;background-color:#666;"></div>')
 });
