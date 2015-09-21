@@ -17,10 +17,16 @@ $(document).ready(function() {
 
 	$supp_key.hover(
 		function() {
-			$('.supp-header').css('color','#2a2a2a');
+			$('.supp-header').css({
+				'color': '#2a2a2a',
+				'cursor': 'pointer'
+			});
 			$('.fa-map').css('color','#2a2a2a');
 		}, function() {
-			$('.supp-header').css('color','#6B6B6B');
+			$('.supp-header').css({
+				'color': '#2a2a2a',
+				'cursor': 'pointer'
+			});
 			$('.fa-map').css('color','#6B6B6B');
 		}
 	)
