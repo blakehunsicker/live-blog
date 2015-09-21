@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 	$(window).scroll(function(e) {
 		e.preventDefault();
-
+		console.log(story_list_offset);
 		if story_list_offset < 20 {
 			$supp_key.css({
 				'position': 'fixed',
