@@ -22,7 +22,7 @@ $(document).ready(function() {
 				'position': 'fixed',
 				'top': '0'
 			})
-		} else {
+		} else if (story_list_offset > 21) {
 			$supp_key.css({
 				'position': 'relative',
 				'top': 'auto'
