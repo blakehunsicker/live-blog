@@ -11,9 +11,13 @@ $(document).ready(function() {
 		'float': 'right'
 	});
 
-	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:' + key_width + ';height:200px;float:left;"><i class="fa fa-map" style="color:#2a2a2a;"></i><span style="font-family:FranklinITCProBold;color:#777;">    RELATED SUPPLEMENTS</span></div>')
+	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:' + key_width + ';height:200px;float:left;"><i class="fa fa-map" style="color:#2a2a2a;"></i><span class="supp-header" style="font-family:FranklinITCProBold;color:#777;">    RELATED SUPPLEMENTS</span></div>')
 
 	var $supp_key = $('.supplement-key');
+
+	$supp_key.hover(function() {
+		$('.supp-header').css('color','#2a2a2a');
+	})
 
 	$(window).scroll(function(e) {
 		e.preventDefault();
