@@ -9,5 +9,5 @@ $(document).ready(function() {
 		'float': 'right'
 	});
 
-	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:30%;height:200px;float:left;background-color:#666;"></div>')
+	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:35%;height:200px;float:left;background-color:#666;"></div>')
 });
