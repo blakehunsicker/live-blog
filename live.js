@@ -9,7 +9,7 @@ $(document).ready(function() {
 		'float': 'right'
 	});
 
-	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:35%;height:200px;float:left;background-color:#666;"></div>')
+	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:33%;height:200px;float:left;background-color:#666;"></div>')
 
 	var $supp_key = $('.supplement-key');
 
@@ -25,7 +25,7 @@ $(document).ready(function() {
 			$supp_key.css({
 				'position': 'fixed',
 				'width': key_width,
-				'top': '50px'
+				'top': '60px'
 			})
 		} else if (story_list_offset > 21) {
 			$supp_key.css({
