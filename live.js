@@ -21,13 +21,13 @@ $(document).ready(function() {
 		var key_width = $('.pb-f-liveblog-story-list').width() / 3 + 'px';
 		console.log(story_list_offset);
 
-		if (story_list_offset < 50) {
+		if (story_list_offset < 30) {
 			$supp_key.css({
 				'position': 'fixed',
 				'width': key_width,
-				'top': '60px'
+				'top': '30px'
 			})
-		} else if (story_list_offset > 51) {
+		} else if (story_list_offset > 31) {
 			$supp_key.css({
 				'position': 'relative',
 				'top': 'auto'
