@@ -17,12 +17,14 @@ $(document).ready(function() {
 		e.preventDefault();
 
 		var story_list_offset = $('#liveblog-story-list').offset().top - $(window).scrollTop();
+
+		var key_width = $('.pb-f-liveblog-story-list').width() / 3 + 'px';
 		console.log(story_list_offset);
 
 		if (story_list_offset < 20) {
 			$supp_key.css({
 				'position': 'fixed',
-				'width': $($('.pb-f-liveblog-story-list').width() / 3 + 'px'),
+				'width': key_width,
 				'top': '50px'
 			})
 		} else if (story_list_offset > 21) {
