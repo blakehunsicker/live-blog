@@ -12,11 +12,13 @@ $(document).ready(function() {
 	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:35%;height:200px;float:left;background-color:#666;"></div>')
 
 	var $supp_key = $('.supplement-key');
-	var story_list_offset = $('#liveblog-story-list').offset().top - $(window).scrollTop();
 
 	$(window).scroll(function(e) {
 		e.preventDefault();
+
+		var story_list_offset = $('#liveblog-story-list').offset().top - $(window).scrollTop();
 		console.log(story_list_offset);
+		
 		if (story_list_offset < 20) {
 			$supp_key.css({
 				'position': 'fixed',
