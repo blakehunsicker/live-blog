@@ -1,6 +1,9 @@
 $(document).ready(function() {
 	$('#liveblog-story-list').css({
-		'min-width': '500px',
+		'width': '60%',
 		'float': 'right'
-	})
+	});
+	$('#liveblog-load-more').css({
+		'float': 'right'
+	});
 });
