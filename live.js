@@ -22,6 +22,11 @@ $(document).ready(function() {
 				'position': 'fixed',
 				'top': '0'
 			})
+		} else {
+			$supp_key.css({
+				'position': 'relative',
+				'top': 'auto'
+			})
 		}
 	});
 
