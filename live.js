@@ -11,7 +11,7 @@ $(document).ready(function() {
 		'float': 'right'
 	});
 
-	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:' + key_width + ';height:200px;float:left;"><i class="fa fa-map" style="color:#2a2a2a;"></i><span style="color:#777;">    RELATED SUPPLEMENTS</span></div>')
+	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:' + key_width + ';height:200px;float:left;"><i class="fa fa-map" style="color:#2a2a2a;"></i><span style="font-family:FranklinITCProBold;color:#777;">    RELATED SUPPLEMENTS</span></div>')
 
 	var $supp_key = $('.supplement-key');
 
@@ -22,13 +22,13 @@ $(document).ready(function() {
 
 		console.log(story_list_offset);
 
-		if (story_list_offset < 45) {
+		if (story_list_offset < 50) {
 			$supp_key.css({
 				'position': 'fixed',
 				'width': key_width,
-				'top': '45px'
+				'top': '50px'
 			})
-		} else if (story_list_offset > 46) {
+		} else if (story_list_offset > 51) {
 			$supp_key.css({
 				'position': 'relative',
 				'top': 'auto'
