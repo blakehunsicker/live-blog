@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	var key_width = $('.pb-f-liveblog-story-list').width() / 3 + 'px';
+
 	$('#liveblog-story-list').css({
 		'width': '60%',
 		'float': 'right'
@@ -9,7 +11,7 @@ $(document).ready(function() {
 		'float': 'right'
 	});
 
-	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:33%;height:200px;float:left;background-color:#666;"><i class="fa fa-map-o" style="color:white;"></i></div>')
+	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:' + key_width + ';height:200px;float:left;background-color:#666;"><i class="fa fa-map-o" style="color:white;"></i></div>')
 
 	var $supp_key = $('.supplement-key');
 
@@ -18,7 +20,6 @@ $(document).ready(function() {
 
 		var story_list_offset = $('#liveblog-story-list').offset().top - $(window).scrollTop();
 
-		var key_width = $('.pb-f-liveblog-story-list').width() / 3 + 'px';
 		console.log(story_list_offset);
 
 		if (story_list_offset < 30) {
