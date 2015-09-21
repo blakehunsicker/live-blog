@@ -9,7 +9,11 @@ $(document).ready(function() {
 		'float': 'right'
 	});
 
-	$('#liveblog-permalink').after('<div class="supplement-key" style="position:relative;width:33%;height:200px;float:left;background-color:#666;"></div>')
+	$('#liveblog-permalink').after('
+		<div class="supplement-key" style="position:relative;width:33%;height:200px;float:left;background-color:#666;">
+			<i class="fa fa-map-o" style="color:white;"></i>
+		</div>
+		')
 
 	var $supp_key = $('.supplement-key');
 
