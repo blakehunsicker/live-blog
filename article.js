@@ -9,6 +9,7 @@ $(document).ready(function() {
 	$('.pb-f-article-article-body .article-body').css('margin-top','0px');
 	$('.inline-content').css('display','none');
 	$('.pb-sig-line').css('display','none');
+	$('#pb-root .pb-feature').css('padding','0px 30px 10px 10px;')
 	$('.flex-embed').css('display','none');
 	$('article').children().css('display','none');
 	$('#defaultImage').css('display','none');
