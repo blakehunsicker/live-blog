@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$('#article-topper').css('text-align','center');
-	$('.pb-f-gallery-gallery').css('text-align','center');
+	$('#article-topper').css('padding-left','20%');
+	$('.pb-f-gallery-gallery').css('padding-left','20%');
 	$('#article-topper').children('h1').css('display','none');
 	$('<h1>The attack in Sousse, Tunisia</h1>').appendTo('#article-topper');
 	$('.wp-volt-gal').css('display','none');
