@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('.headline-kicker').children('a').css('display','none');
-	$('<div><i class="fa fa-circle" style="color:#DCA48D;float:left"></i> Supplement explorer</div>')
+	$('<div><i class="fa fa-circle" style="color:#DCA48D;float:left"></i> Supplement explorer</div>').appendTo('.headline-kicker');
 	$('#article-topper').children('h1').css('display','none');
 	$('<h1>The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
 	$('.pb-f-sharebars-utilities-tool-bar').css('display','none');
