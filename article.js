@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.headline-kicker').children('a').css('display','none');
+	// $('.headline-kicker').children('a').css('display','none');
 	// $('<span style="background-color:#DCA48D;padding:5px 10px 5px 10px;margin-bottom:15px;">Supplement explorer</span>').appendTo('.headline-kicker');
 	$('.headline-kicker').css({
 		'margin-top': '25px',
