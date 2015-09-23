@@ -4,14 +4,14 @@ $(document).ready(function() {
 	$('<span style="background-color:#DCA48D;padding:5px 10px 5px 10px;margin-bottom:15px;">Supplement explorer</span>').appendTo('.headline-kicker');
 	$('#article-topper').children('h1').css('display','none');
 	$('<h1>The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
-	$('.pb-f-sharebars-utilities-tool-bar').css('display','none');
+	// $('.pb-f-sharebars-utilities-tool-bar').css('display','none');
 	$('.pb-f-gallery-gallery').css('display','none');
 	$('.pb-f-article-article-body .article-body').css('margin-top','0px');
 	$('.inline-content').css('display','none');
 	$('.pb-sig-line').css('display','none');
 	$('#pb-root .pb-feature').css({
-		'padding': '0px 30px 10px 10px',
-		'border-right': 'none'
+		'padding': '10px 30px 10px 10px',
+		// 'border-right': 'none'
 	});
 	$('.flex-embed').css('display','none');
 	$('article').children().css('display','none');
