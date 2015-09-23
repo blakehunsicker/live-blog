@@ -18,7 +18,7 @@ $(document).ready(function() {
 	$('.inline-content').css('display','none');
 	$('.pb-sig-line').css('display','none');
 	$('#pb-root .pb-feature').css({
-		'padding': '10px 30px 10px 10px',
+		'padding': '30px 30px 10px 10px',
 		// 'border-right': 'none'
 	});
 	$('.flex-embed').css('display','none');
