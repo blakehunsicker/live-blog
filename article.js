@@ -1,13 +1,13 @@
 $(document).ready(function() {
 	$('.headline-kicker').children('a').css('display','none');
 	// $('<span style="background-color:#DCA48D;padding:5px 10px 5px 10px;margin-bottom:15px;">Supplement explorer</span>').appendTo('.headline-kicker');
-	$('<span style="display:inline-block;background-color:#DCA48D;border-radius:1em;padding:6px;margin-right:8px;"></span><span style="font-family:FranklinITCProBold;font-size:16px;">Supplement explorer</span>').appendTo('.article-topper');
 	$('.headline-kicker').css({
 		'margin-top': '25px',
 		'margin-bottom': '17px'
 	});
 	$('#article-topper').children('h1').css('display','none');
 	$('<h1>The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
+	$('<span style="display:inline-block;background-color:#DCA48D;border-radius:1em;padding:6px;margin-right:8px;"></span><span style="font-family:FranklinITCProBold;font-size:16px;">Supplement explorer</span>').appendTo('.article-topper');
 	// $('.pb-f-sharebars-utilities-tool-bar').css('display','none');
 	$('.pb-f-graphic-graphic-main .graphic-main').css({
 		'padding-top': '30px',
