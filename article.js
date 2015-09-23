@@ -9,6 +9,7 @@ $(document).ready(function() {
 	$('#article-topper').children('h1').css('display','none');
 	$('<h1>The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
 	// $('.pb-f-sharebars-utilities-tool-bar').css('display','none');
+	$('.gallery-main').css('padding','30px');
 	$('.pb-f-gallery-gallery').css('display','none');
 	$('.pb-f-article-article-body .article-body').css('margin-top','0px');
 	$('.inline-content').css('display','none');
