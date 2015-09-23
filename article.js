@@ -6,8 +6,8 @@ $(document).ready(function() {
 		'margin-bottom': '17px'
 	});
 	$('#article-topper').children('h1').css('display','none');
-	$('<h1>The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
-	$('<span style="display:inline-block;background-color:#DCA48D;border-radius:1em;padding:6px;margin-right:8px;"></span><span style="font-family:FranklinITCProBold;font-size:16px;">Supplement explorer</span>').appendTo('.article-topper');
+	$('<h1 class="new-title">The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
+	$('<span style="display:inline-block;background-color:#DCA48D;border-radius:1em;padding:6px;margin-right:8px;"></span><span style="font-family:FranklinITCProBold;font-size:16px;">Supplement explorer</span>').insertAfter('.new-title');
 	// $('.pb-f-sharebars-utilities-tool-bar').css('display','none');
 	$('.pb-f-graphic-graphic-main .graphic-main').css({
 		'padding-top': '30px',
