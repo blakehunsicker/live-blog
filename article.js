@@ -14,8 +14,7 @@ $(document).ready(function() {
 		'padding-right': '30px'
 	});
 	$('.graphic-main-wide').css({
-		'padding-left': '20%',
-		'padding-right': '20%'
+		'padding-right': '40%'
 	});
 	$('.pb-f-gallery-gallery').css('display','none');
 	$('.pb-f-article-article-body .article-body').css('margin-top','0px');
