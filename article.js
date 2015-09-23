@@ -12,7 +12,11 @@ $(document).ready(function() {
 	$('.pb-f-graphic-graphic-main .graphic-main').css({
 		'padding-top': '30px',
 		'padding-right': '30px'
-	})
+	});
+	$('.graphic-main-wide').css({
+		'padding-left': '20%',
+		'padding-right': '20%'
+	});
 	$('.pb-f-gallery-gallery').css('display','none');
 	$('.pb-f-article-article-body .article-body').css('margin-top','0px');
 	$('.inline-content').css('display','none');
