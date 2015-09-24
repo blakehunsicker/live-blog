@@ -7,8 +7,21 @@ $(document).ready(function() {
 	});
 	$('#article-topper').children('h1').css('display','none');
 	$('<h1 class="new-title">The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
-	$('<div class="supplement-tag" style="margin-bottom:20px;"><span style="display:inline-block;background-color:#DCA48D;border-radius:1em;padding:6px;margin-right:8px;"></span><span style="font-family:FranklinITCProBold;font-size:16px;">Topic Index <span style="color:#E0E0E0;">Specific background information</span></span></div>').insertAfter('.new-title');
-	// $('.pb-f-sharebars-utilities-tool-bar').css('display','none');
+	$('<div class="supplement-tag" style="pointer:cursor;margin-bottom:20px;"><span style="display:inline-block;background-color:#DCA48D;border-radius:1em;padding:6px;margin-right:8px;"></span><span class="index-title" style="font-family:FranklinITCProBold;font-size:16px;color:#333;">Topic Index</span> <span class="index-text" style="color:#b2b2b2;">Background on Topics in the News</span></span></div>').insertAfter('.new-title');
+	$('.supplement-tag').hover(
+		function() {
+			$('.index-text').css('color','#555555');
+		}, function() {
+			$('.index-text').css('color','#b2b2b2');
+		}
+	);
+	$('.index-title').hover(
+		function() {
+			$('.index-title').css('text-decoration','underline');
+		}, function() {
+			$('.index-title').css('text-decoration','none');
+		}
+	);
 	$('.pb-f-graphic-graphic-main .graphic-main').css({
 		'padding-top': '30px',
 		'padding-right': '30px'
