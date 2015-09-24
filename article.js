@@ -10,10 +10,12 @@ $(document).ready(function() {
 	$('<div class="supplement-tag" style="pointer:cursor;margin-bottom:20px;"><span style="display:inline-block;background-color:#DCA48D;border-radius:1em;padding:6px;margin-right:8px;"></span><span class="index-title" style="font-family:FranklinITCProBold;font-size:16px;color:#333;">Topic Index</span> <span class="index-text" style="font-family:FranklinITCProBold;font-size:16px;color:#b2b2b2;">Basics and background on the news</span></span></div>').insertAfter('.new-title');
 	$('.supplement-tag').hover(
 		function() {
-			$('.index-title').css('text-decoration','underline');
+			$('.index-title').css({
+				'text-decoration':'underline',
+				'cursor':'pointer'
+			);
 			$('.index-text').css({
 				'color':'#555555',
-				'cursor':'pointer'
 			});
 		}, function() {
 			$('.index-title').css('text-decoration','none');
