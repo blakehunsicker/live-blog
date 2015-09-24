@@ -15,7 +15,7 @@ $(document).ready(function() {
 				'cursor':'pointer'
 			});
 			$('.index-text').css({
-				'color':'#555555',
+				'cursor':'pointer'
 			});
 		}, function() {
 			$('.index-title').css('text-decoration','none');
