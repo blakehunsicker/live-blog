@@ -13,7 +13,7 @@ $(document).ready(function() {
 			$('.index-title').css({
 				'text-decoration':'underline',
 				'cursor':'pointer'
-			);
+			});
 			$('.index-text').css({
 				'color':'#555555',
 			});
