@@ -1,10 +1,9 @@
 $(document).ready(function() {
-	$('.headline-kicker').children('a').css('display','none');
-	// $('<span style="background-color:#DCA48D;padding:5px 10px 5px 10px;margin-bottom:15px;">Supplement explorer</span>').appendTo('.headline-kicker');
-	$('.headline-kicker').css({
-		'margin-top': '25px',
-		'margin-bottom': '17px'
-	});
+	// $('.headline-kicker').children('a').css('display','none');
+	// $('.headline-kicker').css({
+	// 	'margin-top': '25px',
+	// 	'margin-bottom': '17px'
+	// });
 	$('#article-topper').children('h1').css('display','none');
 	$('<h1 class="new-title">The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
 	$('<div class="supplement-tag" style="pointer:cursor;margin-bottom:20px;"><span style="display:inline-block;background-color:#DCA48D;border-radius:1em;padding:6px;margin-right:8px;"></span><span class="index-title" style="font-family:FranklinITCProBold;font-size:16px;color:#333;">Topic Index</span> <span class="index-text" style="font-family:FranklinITCProBold;font-size:16px;color:#b2b2b2;">Basics and background on the news</span></span></div>').insertAfter('.headline-kicker');
