@@ -5,13 +5,12 @@ $(document).ready(function() {
 	$('#article-topper').children('h1').css('display','none');
 	$('<h1 class="new-title">The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
 
-	$('#fcdXyf2KeQ3nop').css({
-		'width':'60%',
-		'margin-right':'0px !important'
-	});
+	// $('#fcdXyf2KeQ3nop').css({
+	// 	'width':'60%',
+	// 	'margin-right':'0px !important'
+	// });
 
-	$('.pb-f-sharebars-top-share-bar').css('border-bottom','none');
-	$('#top-sharebar_7303').css({
+	$('.graphic-main-wide').css({
 		'margin-left': '40%'
 	});
 
