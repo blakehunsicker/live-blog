@@ -10,7 +10,7 @@ $(document).ready(function() {
 	// 	'margin-right':'0px !important'
 	// });
 
-	$('.graphic-main-wide').css('padding-left', '40% !important');
+	$('.pb-f-graphic-graphic-main').css('margin-left', '40% !important');
 
 	$('article').children().css('display','none');
 
