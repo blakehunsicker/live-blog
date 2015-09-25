@@ -6,8 +6,7 @@ $(document).ready(function() {
 	$('<h1 class="new-title">The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
 
 	$('.pb-f-sharebars-top-share-bar').css({
-		'margin-left':'40% !important',
-		'padding-right':'30px'
+		'margin-left':'40% !important'
 	});
 
 	$('.graphic-main-wide').css({
