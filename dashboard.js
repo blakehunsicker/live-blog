@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	$('#fcdXyf2KeQ3nop').css({
 		'width':'60%',
-		'margin':'0px 30px 0px 40% !important'
+		'margin-right':'0px !important'
 	});
 
 	$('.graphic-main-wide').css({
