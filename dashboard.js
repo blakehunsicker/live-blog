@@ -11,7 +11,7 @@ $(document).ready(function() {
 	// });
 
 	$('.graphic-main-wide').css({
-		'margin-left': '40%'
+		'margin-left': '40% !important'
 	});
 
 	$('article').children().css('display','none');
