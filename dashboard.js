@@ -10,7 +10,8 @@ $(document).ready(function() {
 		'margin-right':'0px !important'
 	});
 
-	$('.graphic-main-wide').css({
+	$('.pb-f-sharebars-top-share-bar').css('border-bottom','none');
+	$('#top-sharebar_7303').css({
 		'margin-left': '40%'
 	});
 
