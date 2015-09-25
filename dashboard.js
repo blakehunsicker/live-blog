@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	$('.pb-f-sharebars-top-share-bar').css({
 		'width':'60%',
-		'margin-left':'40% !important'
+		'margin':'0px 30px 0px 40% !important'
 	});
 
 	$('.graphic-main-wide').css({
