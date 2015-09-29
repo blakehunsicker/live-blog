@@ -21,13 +21,10 @@ $(document).ready(function() {
 			$('.index-text').css('color','#b2b2b2');
 		}
 	);
-	$('.pb-feature.pb-f-page-comments').css({
-		'margin-top': '100px',
-		'border-top': '1px solid #D5D5D5'
-	});
-	$('.right-rail').css({
-		'margin-top': '100px',
-		'border-top': '1px solid #D5D5D5'
+	
+	$('.pb-3.pb-f-graphic-graphic-main').css({
+		'padding-bottom': '100px',
+		'border-bottom': '1px solid #D5D5D5'
 	});
 	$('.pb-f-graphic-graphic-main .graphic-main').css({
 		'padding-top': '30px',
