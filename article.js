@@ -23,8 +23,8 @@ $(document).ready(function() {
 	);
 	
 	$('.pb-3.pb-f-graphic-graphic-main').css({
-		'padding-bottom': '100px',
-		'border-bottom': '1px solid #D5D5D5'
+		'padding-bottom': '100px !important',
+		'border-bottom': '1px solid #D5D5D5 !important'
 	});
 	$('.pb-f-graphic-graphic-main .graphic-main').css({
 		'padding-top': '30px',
