@@ -21,10 +21,14 @@ $(document).ready(function() {
 			$('.index-text').css('color','#b2b2b2');
 		}
 	);
-	$('.pb-c-default-chain').css({
-		'padding-top': '100px',
-		'border-bottom': '1px solid #D5D5D5'
-	})
+	$('pb-f-page-comments').css({
+		'margin-top': '100px',
+		'border-top': '1px solid #D5D5D5'
+	});
+	$('.right-rail').css({
+		'padding-top': '30px',
+		'padding-right': '30px'
+	});
 	$('.pb-f-graphic-graphic-main .graphic-main').css({
 		'padding-top': '30px',
 		'padding-right': '30px'
