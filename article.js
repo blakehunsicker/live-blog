@@ -22,7 +22,7 @@ $(document).ready(function() {
 		}
 	);
 	
-	$('.pb-f-ad-flex"').css({
+	$('.pb-1').css({
 		'margin-top': '100px !important',
 		'border-top': '1px solid #D5D5D5 !important'
 	});
