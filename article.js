@@ -21,8 +21,8 @@ $(document).ready(function() {
 			$('.index-text').css('color','#b2b2b2');
 		}
 	);
-	$('.pb-f-graphic-graphic-main').css({
-		'padding-bottom': '100px',
+	$('.pb-c-default-chain').css({
+		'padding-top': '100px',
 		'border-bottom': '1px solid #D5D5D5'
 	})
 	$('.pb-f-graphic-graphic-main .graphic-main').css({
