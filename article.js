@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 	$('#article-topper').children('h1').css('display','none');
-	$('<h1 class="new-title">The attack in Sousse, Tunisia (what would this look like after a line break?)</h1>').appendTo('#article-topper');
+	$("<h1 class='new-title'>The Islamic State's inroads in America</h1>").appendTo('#article-topper');
 
 	$('.supplement-tag').hover(
 		function() {
